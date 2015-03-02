@@ -30,6 +30,15 @@ public class BodyDriver {
 
 	System.out.println(lance.toString());
 	
+	Body Mars = new Body();
+	mars.name = Mars;
+	mars.orbits = sun;
+	System.out.println(Mars.toString());
+	
+	Body MMoon = new Body();
+	mmoon.name = Phobos;
+	mmoon.orbits = mars;
+	System.outprintln(mmoon.toString());
 }
 
 }
