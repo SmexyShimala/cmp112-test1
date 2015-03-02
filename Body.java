@@ -21,10 +21,10 @@ class Body {
 	Body(String bodyName) {
 	  this();
 	  orbits = null;
-	  name = bodyName;   //
+	  name = bodyName;   
 	  }
 
-	public String toString() {
+	public String toString() {   //setting up an argument
 	   String desc = idNum + " (" + name + ")";
 	   if (orbits != null) 
 		desc += " orbits " + orbits.toString();
@@ -33,7 +33,7 @@ class Body {
 	
 
 	public String toString(String arg) {
-	    System.out.println("This is dumb: " + arg); 
+	    System.out.println("This is dumb: " + arg);  //printing out This is dumb plus whatever argument is
 		return "Hello";
 	     }
 
